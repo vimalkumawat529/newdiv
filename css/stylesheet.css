@@ -1,0 +1,187 @@
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.master{
+    width:100%;
+    height: 500px;
+    background-image: url(../img/dd.jpg);
+    color:rgb(243, 234, 234);
+    border-top:10px solid blue;
+}
+
+#my-navigation{
+    background:none;
+    border:0;
+    color:rgb(245, 238, 238);
+    margin-top:30px;
+}
+
+#my-navigation a{
+    color:rgb(243, 235, 235); 
+}
+
+#my-navigation a .icon-bar{
+    color:#fff;
+}
+
+#mynavbar .theory{
+    color:rgb(243, 224, 224);
+}
+
+.heading1{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.heading1 h1{
+    font-weight:100;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+/*heading1 finished*/
+
+/*heading2 start*/
+
+.heading2{
+    padding:50px 0px;
+    padding-left:30px;
+}
+
+.heading2 h3{
+    color:rgb(133, 133, 219);
+    font-weight:100;
+    line-height:35px;
+    margin-bottom:25px;
+}
+
+.heading2 p{
+    color:grey;
+    margin-bottom: 25px;
+    line-height:25px ;
+}
+
+.vimal{
+    width:20%;
+    height:30px;
+    background-color:rgb(123, 123, 216);
+    border:0;
+    color:#fff;
+    font-size: 15px;
+    margin-bottom:15px;
+    
+}
+
+.heading2 .ad-border{
+    border-style: solid;
+    border-width:0px 1px 0px 1px;
+    border-color:#b6a7a7;
+}
+
+/*heading2 finished/*
+/*heading3 start*/
+
+.heading3{
+    width:100%;
+    background-color: rgb(106, 106, 218);
+    text-align: center;
+    color:#fff;
+}
+
+.heading3 .top{
+    padding:50px 0px;
+}
+
+.heading3 .top h2{
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom:10px;
+}
+
+.bottom{
+    padding-bottom:50px;
+    
+}
+
+.bottom .ad-border{
+    border:1px solid #dfdfdf;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+/*heading3 finished*/
+
+/*heading4 start*/
+.heading4{
+    padding:50px 0px;
+    padding-left:30px;
+}
+
+.heading4 .top h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom:20px;
+    color:rgb(195, 195, 223);
+}
+
+.heading4 .top p{
+    color:gray;
+    margin-bottom:50px;
+}
+
+.heading4 .bottom-left, .bottom-right{
+    padding-right:40px;
+    
+}
+
+.heading4 .bottom-left img, .bottom-right img{
+  width:100%;
+}
+
+.heading4 .bottom-left h2, .bottom-right h2{
+    padding:20px 0px;
+    color:rgb(195, 195, 223);
+    font-weight: 100;
+}
+
+.heading4 .bottom-left p, .bottom-right p{
+    padding-bottom:20px;
+    color:gray;
+    line-height: 25px;
+}
+
+/*heading4 finished*/
+
+/*heading5 start*/
+
+.heading5 hr{
+   margin-top:80px;
+}
+.heading5 p{
+    color:gray;
+}
+
+.heading5 span{
+    color: gray;
+    padding-right:10px;
+    font-size: 10px;
+}
+   /*heading5 finished*/
+
+   /*maedia quary staart*/
+
+   @media only screen and (max-width:760px){
+       .heading1 h1{
+           font-size: 20px;
+       }
+       .heading2 .ad-border{
+           border:none;
+       }
+
+       .heading5 span{
+           font-size: 15px;
+       }
+   }
+   
